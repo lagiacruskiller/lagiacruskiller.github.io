@@ -2,6 +2,25 @@
 <html>
 <head>
 <title> 宥禎的玩偶個人粉專 </title>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script> 
+$(document).ready(function(){
+
+	$("button").click(function(){
+			var str = $("#amount").val();
+			if(($('#amount').val())== null)
+					alert("不好意思，輸入的數量不能留空");
+			else{
+				if(($('#amount').val())<1)
+					alert("不好意思，輸入的數量不能低於0")
+				else{
+    				$("p").html("感謝購買"+ str +"個蘑菇。");
+					$("p").css("font-weight", "Bold");
+				}
+			}
+	});
+});
+</script> 
 </head>
 <body>
 <style>
@@ -48,6 +67,12 @@
 <div id="all" style= "background-color: purple; border: 10px white solid;"
 <a href="https://imgur.com/Phz3SB1"><img src="https://i.imgur.com/Phz3SB1.jpg" title="source: imgur.com" /></a>
 <a>大家的全家福！</a>
+</div>
+<div id="store" style= "background-color: white; border: 1px black solid;">
+<h1>蘑菇宅配</h1>
+<label>輸入購買數量： <input type="text" id="amount"></label>
+<button>購買</button>
+<p><span class="jsResult"></span></p>
 </div>
 </body>
 </html>
