@@ -3,6 +3,9 @@
   "short_name": "宥禎的玩偶個人粉專",
   "start_url": "lagiacruskiller.github.io",
   "gcm_sender_id": "521132996812",
+   "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2",
   "icons": [{
         "src": "logo192.png",
         "sizes": "192x192",
@@ -12,8 +15,7 @@
         "sizes": "512x512",
         "type": "image/png"},   
               
-    }],
-  "display": "standalone",
-  "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2"
+    }
+   ]
+
 }
