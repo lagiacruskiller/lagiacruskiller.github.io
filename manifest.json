@@ -1,7 +1,7 @@
 {
   "name": "宥禎的玩偶個人粉專",
   "short_name": "宥禎的玩偶個人粉專",
-  start_url: "lagiacruskiller.github.io",
+  "start_url": "lagiacruskiller.github.io",
   "gcm_sender_id": "521132996812",
   "icons": [{
     "src": "https://i.imgur.com/uouXbg3.png",
