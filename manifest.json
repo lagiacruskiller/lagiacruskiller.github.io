@@ -1,6 +1,7 @@
 {
-  "name": "Weather",
-  "short_name": "Weather",
+  "name": "宥禎的玩偶個人粉專",
+  "short_name": "宥禎的玩偶個人粉專",
+  start_url: ".",
   "gcm_sender_id": "521132996812",
   "icons": [{
     "src": "images/icons/icon-128x128.png",
