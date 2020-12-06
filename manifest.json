@@ -4,25 +4,14 @@
   "start_url": "lagiacruskiller.github.io",
   "gcm_sender_id": "521132996812",
   "icons": [{
-    "src": "https://i.imgur.com/uouXbg3.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    }, {
-      "src": "https://i.imgur.com/uouXbg3.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }, {
-      "src": "https://i.imgur.com/uouXbg3.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    }, {
-      "src": "https://i.imgur.com/uouXbg3.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }, {
-      "src": "https://i.imgur.com/uouXbg3.png",
-      "sizes": "256x256",
-      "type": "image/png"
+        "src": "logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"},
+    {
+        "src": "logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"},   
+              
     }],
   "display": "standalone",
   "background_color": "#3E4EB8",
