@@ -5,3 +5,10 @@ self.addEventListener("install", e => {
     })
   );
 });
+self.addEventListener("fetch",e => {
+  e.respondWith(
+    cache.match(e.request).then(response => {
+      return response || fetch(e.request);
+    })
+  )
+});
